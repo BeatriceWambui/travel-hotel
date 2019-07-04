@@ -1,6 +1,7 @@
 nav{
   margin: auto;
   padding:0.1% 0;
+  text-align: center;
 
 }
 
@@ -11,8 +12,6 @@ ul>li{
 
 }
 nav>ul>li:a hoover{
-  background-color: fafafa;
-  color:white;
   box-shadow:0 0 0 0.625em rgba(255,255,255,0.1);
   color:white;
   background-color: black;
@@ -20,13 +19,45 @@ nav>ul>li:a hoover{
   }
 
   h1{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     }
 
   h2{
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
 
-  
+  #home{
+    display:flex;
+    flex-direction: row;
+
+    }
+
+    #accomodation{
+      display:flex;
+      flex-direction: row;
+
+    }
+
+    #activities{
+      display:flex;
+      flex-direction:row;
+
+    }
+
+    #travel{
+      display:flex;
+      flex-direction: row;
+
+    }
+
+    img{
+      border: 10px solid white;
+      border-radius: 5%;
+    }
+
+    body{
+      background-color: black;
+      color:white;
+    }
