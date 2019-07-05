@@ -2,20 +2,26 @@ nav{
   margin: auto;
   padding:0.1% 0;
   text-align: center;
+  font-size: 20px;
 
 }
 
 ul>li{
   display:inline-block;
   padding:15px;
+  background-color: white;
+  color: black;
+}
+nav>ul>li:a{
+  box-shadow: 0 0 0 0.625em white;
+  background-color: red;
   text-decoration: none;
 
 }
 nav>ul>li:a hoover{
   box-shadow:0 0 0 0.625em rgba(255,255,255,0.1);
-  color:white;
-  background-color: black;
-  insert:0 0 0.625em rgba(255,255,255,0.6);
+  background-color:lime;
+  border: 1px solid white;
   }
 
   h1{
@@ -61,3 +67,11 @@ nav>ul>li:a hoover{
       background-color: black;
       color:white;
     }
+  #contact{
+    text-align: center;
+  }
+
+  .style{
+    display: block;
+
+  }
